@@ -1,0 +1,45 @@
+1- Arquivo Configuration.h
+
+Custon name - removeu a versão?
+
+
+bltouch
+Descomentar #define BLTOUCH
+
+Comentar #define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN
+
+Descomentar #define USE_PROBE_FOR Z_HOMING
+
+Descomentar #define NOZZLE_TO_PROBE_OFFSET {-44, -7, 0}
+Deve definir os valores. O ideal é medir.
+
+Descomentar # AUTO BED LEVEL BYLINEAR
+
+Descomentar # Z_SAFE_HOME
+
+2 - Arquivo Configuration_adv.h
+
+Descomenta:
+#define POWER_LOSS_RECOVERY
+
+wiza
+Descomentar PROBE_OFFSET_WIZARD
+
+Build STMF103_RC_creality (256K)
+
+BLTOUCH https://www.youtube.com/watch?v=iaQSXZsybl0
+
+Tem que gravar a firmware original antes de gravar a customizada.
+
+Será que funciona com a versão de 256kb. Teoricamente o chip suporta isso.
+
+
+Distâncias
+
+Esquerda 43.5cm
+
+
+- Tamanho da imagem - 128x64
+
+
+
